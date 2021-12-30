@@ -17,7 +17,7 @@ const commands = new SlashCommands({
 ```
 - Now Go To Commands Dir and Create A Folder Which Will Be Our Command File 
 - Example Command
-  ```js
+```js
   module.exports = {
     name: "ping",
     description: "ping Command",
@@ -27,7 +27,7 @@ const commands = new SlashCommands({
     
     }
     }
-  ```
+```
 - Use .register Function To Register The Command
 ```js
  commands.register()
