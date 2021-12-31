@@ -16,7 +16,7 @@ const commands = new SlashCommands({
 })
 ```
 - Now Go To Commands Dir and Create A Folder Which Will Be Our Command File 
-- Example Command
+- Example Command / Ping Command
 ```js
   module.exports = {
     name: "ping",
